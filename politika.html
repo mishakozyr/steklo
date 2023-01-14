@@ -12,7 +12,31 @@
 </head>
 <body> 
     <!-- HEADER -->
-    <?php require('components/header-pol.php'); ?>
+        <header class="header_pol" id="header_pol">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <div class="header__logo__item1">
+                        <a href="index.html"><img class="header__logo-img" src="assets/img/logo2.png" alt=""></a>
+                    </div>
+                    <div class="header__logo_pol__item2">
+                        <a href="index.html"><h2 class="header__title" id="header__title"><span class="header__logo__textcolor">Стекло</span>Мастер</h2></a>
+                        <h3 class="header__title" id="header__number"><a href="tel:+79500116921">+7(950)011-69-21</a></h3>
+                    </div>
+                </div>
+                <nav class="nav_pol" id="nav_pol">
+                    <a class="nav__link_pol" id="nav__link_pol1" href="index.html#katalog_stekla">Каталог стекла</a>
+                    <a class="nav__link_pol" id="nav__link_pol3" href="index.html#uslugi">Другие услуги</a>
+                    <a class="nav__link_pol" id="nav__link_pol4" href="index.html#dostavka_i_oplata">Доставка и оплата</a>
+                    <a class="nav__link_pol" id="nav__link_pol2" href="index.html#primeri_rabot">Примеры работ</a>
+                </nav>
+                <button class="nav-toggle_pol" id="nav_toggle_pol" type="button">
+                    <span class="nav-toggle__item_pol">Menu</span>
+                </button>
+                
+            </div>
+        </div>
+    </header>
     <!-- POLITIKA -->
     <section class="section__politika" id="politika">
         <div class="container">
@@ -105,7 +129,36 @@
         </div>
     </section>
     <!-- FOOTER -->
-    <?php require('components/footer.php'); ?>
+        <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col footer__col--first">
+                    <div class="footer__logo">
+                        <div class="footer__logo__item1">
+                            <a href="index.html"><h2><span class="footer__logo__textcolor">Стекло</span>Мастер</h2></a>
+                        </div>
+                    </div>
+                    <div style="line-height: 1.3;"> <a class="footer__pol__text" href="politika.php" target="_blank">Политика конфиденциальности</a></div>
+                    <div class="footer__text">Copyright © 2022-2023 г.</div>
+                </div>
+                <div class="footer__col footer__col--second">
+                    <div class="footer__social">
+                        <div class="footer__social-header">
+                           Соцсети
+                        </div>
+                        <div class="footer__social-icons">
+                            <a href="https://vk.com/zamenasteklaspb" target="_blank"><img class="footer__icon" src="assets/img/VK.svg" alt=""></a>
+                            <a href="https://t.me/zamenasteklaspb" target="_blank"><img class="footer__icon" src="assets/img/Telegram.svg" alt=""></a>
+                            <a href="https://wa.me/79500116921" target="_blank"><img class="footer__icon" src="assets/img/WhatsApp.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col--third">
+                    <!-- <div style="line-height: 1.3;"><a class="razrabotka__site" href="#">Разработка сайтов тут</a></div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
