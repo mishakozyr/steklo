@@ -1694,7 +1694,7 @@ b {
     }
     .intro-suptitle {
         font-size: 1.25rem;
-        padding-top: 1.25rem;
+        padding-top: 10vh;
     }
     .intro {
         height: 80vh;
