@@ -232,7 +232,7 @@ $(function() {
         , id = $el.attr('href');
     
     $('html, body').animate({
-        scrollTop: $(id).offset().top - nav_height
+        scrollTop: $(id).offset().top
     }, 500);
     
     return false;
