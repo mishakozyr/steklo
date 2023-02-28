@@ -106,8 +106,8 @@ b {
 #primeri-rabot, 
 #uslugi, 
 #dostavka-i-oplata {
-    padding-top: 5rem;
-	margin-top: -5rem;
+    padding-top: 80px;
+	margin-top: -80px;
 }
 
 
@@ -1433,6 +1433,9 @@ b {
     .intro {
         height: 80vh;
     }
+    .skr.active {
+        display: none;
+    }
 
     /* Uslugi */
     .uslugi-text {
@@ -1468,6 +1471,9 @@ b {
     }
     .intro-subtitle {
         font-size: 1.5625rem;
+    }
+    .skr.active {
+        display: none;
     }
 
     /* Uslugi */
